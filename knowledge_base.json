@@ -1,0 +1,350 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "questions": [
+        "Hi", "Hello", "Hey", "How are you?", "What's up?", "Good morning", "Good afternoon", "Good evening",
+        "Greetings", "Nice to meet you", "Pleasure to meet you", "How's it going?", "How do you do?"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I help you with?",
+        "Greetings! How may I be of service?",
+        "Welcome! What brings you here today?",
+        "Good day! How can I make your day better?",
+        "Hello! I'm here to help. What do you need?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "questions": [
+        "Bye", "Goodbye", "See you later", "Take care", "I'm leaving", "Have a good day",
+        "Farewell", "Until next time", "Catch you later", "I'm off", "Talk to you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "Take care! Feel free to come back if you have more questions.",
+        "See you later! Don't hesitate to ask if you need anything else.",
+        "Farewell! I hope I was helpful.",
+        "Until next time! Remember, I'm always here if you need assistance.",
+        "Take care and come back anytime!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "questions": [
+        "Thank you", "Thanks", "Appreciate it", "Thanks a lot", "You've been helpful",
+        "That's great, thanks", "I appreciate your help", "Thank you so much", "Cheers"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Glad I could assist you!",
+        "It's my pleasure to help!",
+        "Anytime! Don't hesitate to ask if you need more assistance.",
+        "I'm here to help. Glad I could be of service!"
+      ]
+    },
+    {
+      "tag": "customer_service",
+      "questions": [
+        "How do I return an item?",
+        "What's your refund policy?",
+        "Can I exchange a product?",
+        "How long does shipping take?",
+        "Where's my order?",
+        "Do you offer international shipping?",
+        "What payment methods do you accept?",
+        "How can I track my package?",
+        "Do you have a loyalty program?",
+        "What's your warranty policy?",
+        "How do I cancel my order?",
+        "Can I change my shipping address after placing an order?"
+      ],
+      "responses": [
+        "To return an item, please log into your account and go to the 'Orders' section. Select the item you wish to return and follow the prompts. You have 30 days from the date of purchase to initiate a return.",
+        "Our refund policy allows for full refunds within 30 days of purchase, provided the item is in its original condition. Refunds are processed within 5-7 business days after we receive the returned item.",
+        "Yes, you can exchange a product within 30 days of purchase. Please contact our customer service team with your order number and the item you wish to exchange.",
+        "Shipping times vary depending on your location and the shipping method chosen. Standard shipping usually takes 3-5 business days, while express shipping can deliver within 1-2 business days.",
+        "To track your order, please log into your account and go to the 'Orders' section. You'll find the tracking information there. If you're having trouble, please contact our customer service with your order number.",
+        "Yes, we offer international shipping to many countries. Shipping costs and delivery times vary by location. You can see the available options at checkout.",
+        "We accept major credit cards (Visa, MasterCard, American Express), PayPal, and Apple Pay. For certain regions, we also offer payment installment plans.",
+        "You can track your package by logging into your account and viewing the 'Orders' section. Click on your order and you'll find a tracking number and link to the carrier's website.",
+        "Yes, we have a loyalty program! For every purchase, you earn points that can be redeemed for discounts on future orders. Sign up on our website to start earning rewards.",
+        "Our standard warranty covers manufacturing defects for one year from the date of purchase. Some products may have extended warranty options available at checkout.",
+        "To cancel an order, please contact our customer service team as soon as possible with your order number. We'll do our best to cancel it if it hasn't been shipped yet.",
+        "You can change your shipping address if the order hasn't been shipped yet. Please contact our customer service team immediately with your order number and the new address."
+      ]
+    },
+    {
+      "tag": "education",
+      "questions": [
+        "What online courses do you offer?",
+        "How do I enroll in a class?",
+        "Are there any free courses available?",
+        "Can I get a certificate after completing a course?",
+        "Do you offer any programming courses?",
+        "How long does it take to complete a course?",
+        "Are the courses self-paced or scheduled?",
+        "What are the prerequisites for advanced courses?",
+        "Do you offer financial aid or scholarships?",
+        "Can I transfer credits from your courses to a university?",
+        "What kind of support is available for students?",
+        "Are there any group discounts for corporate training?"
+      ],
+      "responses": [
+        "We offer a wide range of online courses including programming, data science, business, marketing, design, and personal development. You can browse our full catalog on our website.",
+        "To enroll in a class, simply go to the course page and click the 'Enroll' button. You'll be prompted to create an account or log in if you haven't already. Follow the payment process to complete your enrollment.",
+        "Yes, we do offer some free courses. You can filter for free courses on our course catalog page. These often serve as introductions to various subjects or as teasers for more comprehensive paid courses.",
+        "Most of our courses offer a certificate of completion. Some advanced courses may require passing a final exam to receive the certificate. Certificates can be shared on LinkedIn or added to your resume.",
+        "Yes, we offer various programming courses covering languages like Python, JavaScript, Java, C++, and more. We have courses for beginners as well as advanced developers, including specialized topics like machine learning and web development.",
+        "Course duration varies depending on the complexity and depth of the subject. Most courses range from 4 to 12 weeks, but you can find both shorter and longer options. Self-paced courses allow you to take as much time as you need.",
+        "We offer both self-paced and scheduled courses. Self-paced courses allow you to learn at your own speed, while scheduled courses have specific start and end dates with weekly deadlines to keep you on track.",
+        "Prerequisites for advanced courses vary. Check the course description for specific requirements. Generally, you'll need a solid understanding of the basics in the subject area. Some courses may require completion of introductory level courses.",
+        "Yes, we offer financial aid for many of our courses and programs. You can apply for financial assistance during the enrollment process. We also offer scholarships for select programs based on merit and need.",
+        "Some of our courses are eligible for college credit. Check the course description for credit eligibility. We have partnerships with several universities that accept our credits, but it's always best to check with your specific institution.",
+        "We offer various support options including discussion forums, teaching assistants, and peer study groups. For technical issues, our support team is available via email or chat. Some courses also include direct instructor support.",
+        "Yes, we offer group discounts for corporate training. Please contact our business solutions team for customized training programs and bulk enrollment options for your organization."
+      ]
+    },
+    {
+      "tag": "healthcare",
+      "questions": [
+        "What are the symptoms of COVID-19?",
+        "How can I book a doctor's appointment?",
+        "What vaccinations do I need for international travel?",
+        "How often should I have a health check-up?",
+        "What's the difference between a cold and the flu?",
+        "How can I maintain a healthy diet?",
+        "What are some effective stress management techniques?",
+        "How much sleep should I get each night?",
+        "What are the signs of depression?",
+        "How can I quit smoking?",
+        "What's the recommended amount of exercise per week?",
+        "How can I lower my cholesterol naturally?"
+      ],
+      "responses": [
+        "Common symptoms of COVID-19 include fever, dry cough, and fatigue. Other symptoms may include loss of taste or smell, nasal congestion, conjunctivitis, sore throat, headache, muscle or joint pain, different types of skin rash, nausea or vomiting, diarrhea, chills or dizziness. If you experience these symptoms, please consult a healthcare professional.",
+        "To book a doctor's appointment, you can use our online booking system on our website or mobile app. Alternatively, you can call our appointment hotline. Make sure to have your insurance information and a brief description of your health concern ready.",
+        "Vaccination requirements for international travel vary depending on your destination. Common vaccines include Hepatitis A and B, Typhoid, Yellow Fever, and routine vaccinations like MMR. It's best to consult with a travel clinic or your doctor at least 4-6 weeks before your trip to ensure you have all necessary vaccinations.",
+        "The frequency of health check-ups depends on various factors including age, gender, and overall health. Generally, adults should have a check-up every 1-3 years. However, it's best to consult with your doctor to determine the right schedule for you based on your individual health profile and risk factors.",
+        "While colds and flu share some symptoms, flu tends to be more severe. Colds usually cause runny or stuffy nose, sore throat, and mild fatigue. Flu often includes fever, body aches, extreme fatigue, and can lead to more serious complications. Flu symptoms typically come on more suddenly than cold symptoms.",
+        "Maintaining a healthy diet involves eating a variety of fruits, vegetables, whole grains, lean proteins, and healthy fats. Limit processed foods, sugary drinks, and excessive salt. Stay hydrated and practice portion control. Consider consulting a nutritionist for personalized advice based on your health goals and any dietary restrictions.",
+        "Effective stress management techniques include regular exercise, meditation or mindfulness practices, getting enough sleep, maintaining social connections, and engaging in hobbies. Time management and setting realistic goals can also help reduce stress. If stress becomes overwhelming, consider speaking with a mental health professional.",
+        "Most adults need between 7 to 9 hours of sleep per night. However, individual needs may vary. Consistent sleep patterns, a relaxing bedtime routine, and a comfortable sleep environment can help improve sleep quality. If you're having persistent sleep issues, consult with a healthcare provider.",
+        "Signs of depression can include persistent sadness, loss of interest in activities, changes in appetite or weight, sleep problems, difficulty concentrating, feelings of worthlessness or guilt, and in severe cases, thoughts of death or suicide. If you're experiencing these symptoms, please seek help from a mental health professional.",
+        "Quitting smoking is challenging but possible. Strategies include nicotine replacement therapy, prescription medications, counseling, and support groups. Set a quit date, identify triggers, and develop coping strategies. Remember, it often takes several attempts to quit successfully, so don't get discouraged if you slip up.",
+        "The World Health Organization recommends at least 150 minutes of moderate-intensity aerobic activity or 75 minutes of vigorous-intensity aerobic activity throughout the week for adults. Additionally, muscle-strengthening activities should be done involving major muscle groups on 2 or more days a week.",
+        "To lower cholesterol naturally, focus on a heart-healthy diet rich in fiber, omega-3 fatty acids, and lean proteins. Limit saturated and trans fats. Regular exercise, maintaining a healthy weight, quitting smoking, and moderating alcohol consumption can also help. In some cases, medication may be necessary in addition to lifestyle changes."
+      ]
+    },
+    {
+      "tag": "technology",
+      "questions": [
+        "How can I protect my online privacy?",
+        "What's the difference between AI and machine learning?",
+        "How does blockchain technology work?",
+        "What are the benefits of cloud computing?",
+        "How can I improve my computer's performance?",
+        "What's the latest in smartphone technology?",
+        "How do I create a strong password?",
+        "What is 5G and how does it work?",
+        "How can I learn to code?",
+        "What are the risks of using public Wi-Fi?",
+        "How do I backup my data securely?",
+        "What's the future of virtual reality?"
+      ],
+      "responses": [
+        "To protect your online privacy, use strong, unique passwords for each account, enable two-factor authentication, be cautious about sharing personal information online, use a VPN when on public Wi-Fi, keep your software and operating systems updated, and be wary of phishing attempts. Consider using privacy-focused browsers and search engines.",
+        "AI (Artificial Intelligence) is a broad field aiming to create intelligent machines that can simulate human thinking capability and behavior, while Machine Learning is a subset of AI that focuses on the ability of machines to receive a set of data and learn for themselves, changing algorithms as they learn more about the information they're processing.",
+        "Blockchain is a decentralized, distributed ledger technology that records transactions across many computers. Each block in the chain contains a number of transactions, and every time a new transaction occurs, a record of that transaction is added to every participant's ledger. This makes it very difficult to tamper with records as it would require changing every copy of the ledger simultaneously.",
+        "Cloud computing offers numerous benefits including cost savings (reduced need for hardware and IT staff), scalability, flexibility (access from anywhere), automatic software updates, increased collaboration, and disaster recovery. It allows businesses to be more agile and innovative by providing on-demand access to a wide array of technologies and resources.",
+        "To improve your computer's performance, try these steps: uninstall unnecessary software, limit startup programs, add more RAM, check for spyware and viruses, use disk cleanup and defragmentation, consider a startup SSD, and perform regular maintenance. If your computer is old, upgrading to a new system might be more cost-effective than trying to speed up an old one.",
+        "Recent smartphone technology advancements include 5G connectivity, foldable displays, advanced AI capabilities, improved cameras with multiple lenses and night mode, faster processors, increased RAM, higher refresh rate displays, under-display fingerprint sensors, and reverse wireless charging. Some phones are also exploring features like under-display cameras and satellite connectivity.",
+        "To create a strong password, use a mix of uppercase and lowercase letters, numbers, and symbols. Make it at least 12 characters long. Avoid using personal information or common words. Consider using a passphrase - a series of random words. Never reuse passwords across different accounts. A password manager can help you create and store complex, unique passwords for each of your accounts.",
+        "5G is the fifth generation of cellular network technology. It offers faster data download and upload speeds, wider coverage, and more stable connections. 5G works by using higher frequency radio waves than previous cellular networks, allowing it to carry more data and provide faster connectivity. It enables new technologies like autonomous vehicles, smart cities, and the Internet of Things (IoT).",
+        "To learn coding, start with a beginner-friendly language like Python or JavaScript. Use online resources such as Codecademy, freeCodeCamp, or Coursera. Practice regularly by working on small projects. Join coding communities for support and collaboration. Consider attending coding bootcamps or workshops. Remember, consistency is key in learning to code.",
+        "Risks of using public Wi-Fi include potential exposure to hackers who can intercept your data, man-in-the-middle attacks, and malware distribution. To protect yourself, avoid accessing sensitive information (like banking) on public Wi-Fi, use a VPN, ensure HTTPS is enabled on websites you visit, turn off file sharing, and keep your software updated.",
+        "To backup data securely, follow the 3-2-1 rule: have at least 3 copies of your data, store 2 backup copies on different storage media, and keep 1 backup copy offsite. Use encryption for sensitive data. Consider using both local backups (external hard drives) and cloud storage services. Regularly test your backups to ensure they're working correctly.",
+        "The future of VR looks promising with advancements in hardware (lighter, more comfortable headsets), improved resolution and field of view, haptic feedback technologies, and more powerful processors. We're likely to see increased integration of VR in fields like education, healthcare (for training and therapy), remote work, and entertainment. Augmented Reality (AR) and Mixed Reality (MR) are also developing alongside VR, potentially leading to more immersive and interactive experiences in our daily lives."
+      ]
+    },
+    {
+      "tag": "finance",
+      "questions": [
+        "How do I create a budget?",
+        "What's the difference between a credit and debit card?",
+        "How does compound interest work?",
+        "What's a good credit score?",
+        "How do I start investing in stocks?",
+        "What's the best way to save for retirement?",
+        "How do taxes work on investments?",
+        "What's the difference between a traditional and Roth IRA?",
+        "How can I improve my credit score?",
+        "What's a mortgage and how does it work?",
+        "How do I negotiate a salary?",
+        "What's the importance of an emergency fund?"
+      ],
+      "responses": [
+        "To create a budget, start by tracking your income and expenses for a month. Categorize your expenses (e.g., housing, food, transportation) and identify areas where you can cut back. Set financial goals and allocate your income accordingly. Use the 50/30/20 rule as a guideline: 50% for needs, 30% for wants, and 20% for savings and debt repayment. Regularly review and adjust your budget as needed.",
+        "A debit card is linked directly to your bank account and withdraws money immediately when you make a purchase. A credit card allows you to borrow money up to a certain limit, which you must pay back later, usually with interest if not paid in full by the due date. Credit cards can help build credit history but require responsible use to avoid debt.",
+        "Compound interest is when you earn interest on both the principal (the original amount invested) and the interest you've already earned. Over time, this can significantly increase your savings or investments. The formula is A = P(1 + r/n)^(nt), where A is the final amount, P is the principal balance, r is the annual interest rate, n is the number of times interest is compounded per year, and t is the number of years.",
+        "A good credit score typically ranges from 670 to 850. Scores are usually categorized as follows: Excellent (800-850), Very Good (740-799), Good (670-739), Fair (580-669), and Poor (300-579). A higher credit score can help you qualify for better interest rates on loans and credit cards. Factors that influence your credit score include payment history, credit utilization, length of credit history, types of credit accounts, and recent credit inquiries.",
+        "To start investing in stocks, first educate yourself about the stock market and different investment strategies. Open a brokerage account with a reputable firm. Start with a small amount you're comfortable potentially losing. Consider beginning with index funds or ETFs for diversification. Research companies before investing in individual stocks. Don't try to time the market, and consider dollar-cost averaging (investing a fixed amount regularly). Remember, investing involves risk, so never invest money you can't afford to lose.",
+        "The best way to save for retirement often involves a mix of strategies. Contribute to employer-sponsored plans like 401(k)s, especially if your employer offers matching contributions. Open an Individual Retirement Account (IRA) for additional tax-advantaged savings. Invest in a diversified portfolio of stocks, bonds, and other assets appropriate for your age and risk tolerance. Start saving early to take advantage of compound interest. Regularly increase your contributions, especially as your income grows. Consider consulting with a financial advisor for personalized advice.",
+        "Taxes on investments depend on the type of investment and how long you hold it. For stocks, bonds, and mutual funds, you'll pay capital gains tax when you sell for a profit. Short-term gains (assets held less than a year) are taxed at your ordinary income tax rate, while long-term gains (assets held more than a year) are taxed at lower rates (0%, 15%, or 20% depending on your income). Dividends may be taxed as ordinary income or at the preferential qualified dividend rate. Interest from bonds is typically taxed as ordinary income. Some retirement accounts offer tax advantages, either tax-deferred growth (traditional IRA/401(k)) or tax-free withdrawals (Roth IRA/401(k)).",
+        "The main difference between a traditional and Roth IRA is when you pay taxes. With a traditional IRA, you contribute pre-tax dollars, reducing your taxable income now, but pay taxes on withdrawals in retirement. With a Roth IRA, you contribute after-tax dollars, but withdrawals in retirement are tax-free. Roth IRAs also don't have required minimum distributions (RMDs) during the owner's lifetime, unlike traditional IRAs. The choice between them often depends on whether you expect your tax rate to be higher now or in retirement.",
+        "To improve your credit score, always pay bills on time, keep credit card balances low (aim for less than 30% of your credit limit), don't close old credit accounts, limit new credit applications, mix up your types of credit (e.g., credit cards, installment loans), and regularly check your credit report for errors. It takes time to significantly improve your score, so be patient and consistent with good credit habits.",
+        "A mortgage is a loan used to purchase a home. The home serves as collateral for the loan. You borrow a large sum from a lender and agree to pay it back with interest over a set period, typically 15 or 30 years. Your monthly payment usually includes principal, interest, property taxes, and homeowners insurance (often referred to as PITI). The interest rate can be fixed (stays the same) or adjustable (changes based on market conditions). As you make payments, you build equity in the home.",
+        "To negotiate a salary, research the typical pay range for your position and location. Highlight your skills, experience, and value to the company. Consider the entire compensation package, including benefits and bonuses. Practice your pitch and be prepared to justify your request. Start with a slightly higher number than your target to leave room for negotiation. Be professional and confident, but also be prepared to compromise or consider non-salary benefits. If the offer is firm, consider negotiating other aspects like additional vacation time or flexible working arrangements.",
+        "An emergency fund is crucial for financial stability. It provides a safety net for unexpected expenses or loss of income, helping you avoid debt. Aim to save 3-6 months of living expenses in an easily accessible savings account. Start small if necessary and gradually build up your fund. Having this cushion can reduce financial stress and give you peace of mind. It's especially important in times of economic uncertainty or if you have variable income."
+      ]
+    },
+    {
+      "tag": "sports",
+      "questions": [
+        "Latest sports news?",
+        "How to start exercising?",
+        "Best workout routines?",
+        "Sports equipment recommendations?",
+        "Popular sports events?",
+        "Fitness tips for beginners?",
+        "How to train for a marathon?",
+        "Best exercises for weight loss?",
+        "Sports injury prevention?",
+        "Home workout ideas?"
+      ],
+      "responses": [
+        "For fitness and sports advice, it's important to consider your current fitness level and goals. What specific area would you like to focus on?",
+        "There are many ways to get started with sports and exercise. What are your fitness goals?",
+        "Exercise recommendations vary based on individual goals and fitness levels. What type of activities interest you?",
+        "I can suggest various workout routines and sports activities. What's your current fitness level and what are you looking to achieve?"
+      ]
+    },
+    {
+      "tag": "pets",
+      "questions": [
+        "Pet care tips?",
+        "How to train a dog?",
+        "Cat behavior problems?",
+        "Best pet food?",
+        "Pet health symptoms?",
+        "Adopting a pet?",
+        "Pet grooming advice?",
+        "Common pet diseases?",
+        "Pet exercise needs?",
+        "Emergency vet signs?"
+      ],
+      "responses": [
+        "Pet care varies by animal type and breed. What kind of pet do you have or are interested in?",
+        "For specific pet advice, it would help to know what type of pet you have and their age.",
+        "I can provide general pet care guidelines. What specific aspect of pet care would you like to learn about?",
+        "Pet health and care requirements vary greatly. What particular pet care information are you looking for?"
+      ]
+    },
+    {
+      "tag": "career_advice",
+      "questions": [
+        "How to write a resume?",
+        "Job interview tips?",
+        "Career change advice?",
+        "Salary negotiation tips?",
+        "Professional development ideas?",
+        "Work-life balance tips?",
+        "Remote work advice?",
+        "LinkedIn profile tips?",
+        "Networking strategies?",
+        "Job search techniques?"
+      ],
+      "responses": [
+        "Career development depends on your field and goals. What specific career advice are you looking for?",
+        "I can help with various career-related topics. What aspect of your career would you like to focus on?",
+        "For personalized career advice, it would help to know your industry and experience level.",
+        "There are many strategies for career growth. What specific area would you like guidance in?"
+      ]
+    },
+    {
+      "tag": "home_maintenance",
+      "questions": [
+        "Home cleaning tips?",
+        "DIY repair advice?",
+        "Garden maintenance?",
+        "Home organization ideas?",
+        "Energy saving tips?",
+        "Home security advice?",
+        "Pest control methods?",
+        "Home renovation ideas?",
+        "Appliance maintenance?",
+        "Seasonal home care?"
+      ],
+      "responses": [
+        "Home maintenance needs vary by property type and location. What specific area would you like advice on?",
+        "I can provide various home care tips. What particular aspect of home maintenance interests you?",
+        "There are many aspects to home maintenance. Which area would you like to learn more about?",
+        "For specific home care advice, what type of maintenance or improvement are you looking to do?"
+      ]
+    },
+    {
+      "tag": "mental_health",
+      "questions": [
+        "How to reduce anxiety?",
+        "Dealing with stress?",
+        "Depression symptoms?",
+        "Mental health resources?",
+        "Meditation techniques?",
+        "Self-care tips?",
+        "How to improve sleep?",
+        "Mindfulness practices?",
+        "Therapy options?",
+        "Emotional well-being?"
+      ],
+      "responses": [
+        "Mental health is important and personal. While I can provide general information, it's best to consult with a mental health professional for specific advice.",
+        "There are various ways to support mental well-being. What specific aspect would you like to learn more about?",
+        "I can share general mental health resources and tips, but for personal concerns, please consult a qualified mental health professional.",
+        "Mental health support varies by individual needs. Would you like information about general resources or specific techniques?"
+      ]
+    },
+    {
+      "tag": "current_events",
+      "questions": [
+        "Latest news?",
+        "Current events?",
+        "What's happening today?",
+        "Recent world news?",
+        "Breaking news?",
+        "Today's headlines?",
+        "News updates?",
+        "Global current affairs?",
+        "Local news?",
+        "Trending topics?"
+      ],
+      "responses": [
+        "I can provide general information about current events, but for the most up-to-date news, please check reliable news sources.",
+        "While I can discuss general topics, for the latest news, I recommend checking current news websites or local news sources.",
+        "Current events change rapidly. For the most recent updates, please consult reliable news sources.",
+        "I can discuss general trends, but for breaking news, please check trusted news websites or local news outlets."
+      ]
+    },
+    {
+      "tag": "weather",
+      "questions": [
+        "What's the weather like?",
+        "What's the weather in Haldwani?",
+        "Temperature in Haldwani",
+        "Weather forecast",
+        "Is it going to rain?",
+        "Weather update"
+      ],
+      "responses": [
+        "Let me check the weather for you...",
+        "I'll fetch the current weather information...",
+        "Checking the weather conditions..."
+      ],
+      "keywords": ["weather", "temperature", "forecast", "rain", "sunny", "climate"]
+    }
+  ]
+}
+  
+
+
